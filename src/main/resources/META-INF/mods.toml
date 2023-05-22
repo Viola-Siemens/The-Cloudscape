@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="LGPL v2.1"
+issueTrackerURL="https://github.com/Viola-Siemens/The-Cloudscape/issues"
+
+[[mods]]
+modId="cloudscape"
+version="${file.jarVersion}"
+displayName="The Cloudscape"
+logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Hexagram"
+description='''
+A new dimension above the clouds.
+'''
+
+[[dependencies.cloudscape]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.cloudscape]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
