@@ -1,0 +1,14 @@
+{
+  "type": "cloudscape:cloudscape",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "cloudscape:cloudscape",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "cloudscape:cloudscape"
+    },
+    "use_overworld_seed": true
+  },
+  "forge:use_server_seed": true
+}
